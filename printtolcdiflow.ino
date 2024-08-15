@@ -1,13 +1,12 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseESP8266.h>
-#include <Wire.h> // Include the Wire.h library for I2C communication
+#include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
-#include <Servo.h> // Include the Servo library for servo motor control
-
-#define WIFI_SSID "POCO X3"
-#define WIFI_PASSWORD "skadyoosh"
-#define FIREBASE_HOST "rit24safaai-default-rtdb.asia-southeast1.firebasedatabase.app"
-#define FIREBASE_AUTH "oTNDqOODORkq8tcz2T3OgtrQt66xqyZVKE4bB6iu"
+#include <Servo.h> 
+#define WIFI_SSID "Wifi ssid"
+#define WIFI_PASSWORD "Password"
+#define FIREBASE_HOST "Firebase Host address"
+#define FIREBASE_AUTH "Secret auth"
 #define IR_PIN D5  // Pin connected to the IR object detector
 #define TRANSPARENT_SENSOR_PIN A0 // Pin connected to the transparent object sensor
 #define LCD_ADDRESS 0x27  // I2C address of the LCD module
